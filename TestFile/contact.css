@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(213, 220, 223, 0.356);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid{
+    display: flex;
+}
+.center-div{
+    min-width: 90vw;
+}
+nav a{
+    font-size: 20px;
+    color: rgb(10, 10, 10)!important;
+}
+img{
+    width: 100%;
+}
+form input.form-control{
+    border: 0;
+    border-radius: 0;
+    background-color: rgba(204, 209, 211, 0.596);
+    padding: 20px;
+}
+form textarea.form-control{
+    border: 0;
+    border-radius: 0;
+    background-color: rgba(204, 209, 211, 0.596);
+    padding: 30px;
+}
+button.btn{
+    border-radius: 50px;
+}
+div.span1 h1{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+div.span2 p{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+div.firstDiv{
+    margin-left: 12rem;
+}
+div.secDiv{
+    margin-left: 15rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+footer h1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+footer p{
+    margin-left: 50px;
+}
+
+@media (max-width:1200px){
+    div.firstDiv{
+        margin-left: 0;
+    }
+    div.secDiv{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    
+    footer h1{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    footer p{
+        margin-left: 0;
+    } 
+}
+@media (min-width:990px){
+    div.firstDiv{
+        margin-left: 1rem;
+    }
+    div.secDiv{
+        margin-left: 5rem;
+    margin-right: 0;
+    margin-top: 1rem;
+    }    
+    row.row3{
+        margin: auto;
+    }
+
+}
